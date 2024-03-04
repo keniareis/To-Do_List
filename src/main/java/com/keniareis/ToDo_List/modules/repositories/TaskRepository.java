@@ -1,4 +1,4 @@
-package com.keniareis.ToDo_List.repositories;
+package com.keniareis.ToDo_List.modules.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.scheduling.config.Task;

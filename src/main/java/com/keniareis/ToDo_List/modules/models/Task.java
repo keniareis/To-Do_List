@@ -1,4 +1,4 @@
-package com.keniareis.ToDo_List.models;
+package com.keniareis.ToDo_List.modules.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
