@@ -6,7 +6,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 import java.time.LocalDateTime;
-import java.util.UUID;
 
 @Entity
 public class Task {
@@ -18,14 +17,9 @@ public class Task {
     private LocalDateTime createdAt;
     private LocalDateTime deadline;
     private boolean completed;
-
-    public Task(){}
-    public Task(Long id, String description, LocalDateTime createdAt, LocalDateTime deadline, boolean completed) {
-        this.id = id;
+    public Task( String description, LocalDateTime deadline) {
         this.description = description;
-        this.createdAt = createdAt;
         this.deadline = deadline;
-        this.completed = completed;
     }
 
     public Long getId() {
